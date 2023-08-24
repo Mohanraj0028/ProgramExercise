@@ -18,7 +18,11 @@ for j in range(len(rem)):
     pro = rem[j] * (2**j) 
     temp = temp + pro
 
-print(temp)    
+if(temp >9):
+    print(chr((temp+55)))
+
+else:
+    print(temp)    
     
 
 
