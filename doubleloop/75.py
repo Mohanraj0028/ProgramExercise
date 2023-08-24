@@ -1,4 +1,4 @@
-binary = input("Enter a binary number: ")
+binary = input("Enter: ")
 binary = binary.lstrip('0')
 
 while len(binary) % 3 != 0:
