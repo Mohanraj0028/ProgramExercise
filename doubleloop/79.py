@@ -1,5 +1,5 @@
-octal = input("Enter: ")
-decimal = int(octal, 8) 
+octal = input("Enter an octal number: ")
+decimal = int(octal, 8)  # Convert octal to decimal
 
 hexadecimal = ""
 
