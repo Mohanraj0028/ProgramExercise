@@ -1,8 +1,5 @@
-let num = [2, 4, 6, 8, 10];
+a = [2,3,4,5,6,7,1]
 
+sqr = a.map(e=>e*e)
 
-function square(number) {
-  return number*number;
-}
-let square_numbers = num.map(square);
-console.log(square_numbers);
+console.log(sqr)

@@ -1,0 +1,165 @@
+body{
+    margin: 0 0 0 0 ;
+    }
+
+
+.container-1{
+    background: #c879b2;
+
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    transform: rotate(270deg);
+    margin-top: 10%;
+    
+}
+
+div{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+
+     color: white;
+     background: #0d2c40;
+     width: 18%;
+     height: 510px;
+     margin-left: 20%;
+     font-size: 40px;
+     margin-block-start: 0;
+     margin-block-end: -18px;
+     padding: 10px;
+     padding-top: 250px;
+     padding-bottom: 0px;
+     letter-spacing: 1px;
+     line-height: 2.5rem;
+
+}
+
+header img{
+    height: 268px;
+    width: 290px;
+    margin-left: 19%;
+    margin-top: -20%;
+}
+.summary{
+    font-size: 20px;
+    color: #ffffff;
+    width: 43%;
+    float: right;
+    
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 101%;
+    height: 50em;
+    margin-top: -65%;
+    padding: 16.3em 2em 10em 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+    margin-right: 20%;
+}
+
+.summary .p{
+    margin-top: 100px;
+}
+
+img{
+    height: 414px;
+    width: 821px;
+    margin-left: -1.5%;
+    margin-top: 11%;
+}
+
+
+.container-2{
+
+    position: relative;
+    float: left;
+    width: 60.1%;
+    margin: 0 0 0 20%;
+    padding: 8em 0.5em 32em 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    
+
+}
+
+.summary-2{
+    height: 300px;
+    margin-top: -300px;
+    width: 500px;
+
+}
+
+
+.summary-2 h1{
+    width: 700px;
+    font-size: 50px;
+}
+
+.summary-2 h3 {
+    font-size: 29px;
+    color: #0d2c40;
+    letter-spacing: 2px;
+}
+
+.summary-2 p{
+    font-size: 20px;
+    color: #0d2c40;
+
+}
+
+.container-2 .sideblue{
+    color: red;
+    float: right;
+    margin-left: 230px;
+    
+    color: white;
+    margin-top: -500px;
+    background:#32c1dc;
+    width: 268px;
+    height: 45rem;
+}
+
+.container-2 .sideblue p{
+
+    
+    font-size: 23px;
+    padding: 10px;
+    margin-top: 158px;
+}
+
+.container3{
+    width: 100%;
+    background: url("mid-century-1\ \(1\).jpg") no-repeat fixed;
+    margin-top: 50%;
+    height: 50rem;
+
+}
+
+.darkblue{
+
+    width: 600px;
+    background: rgb(5, 5, 43);
+    color: white;
+    font-size: 18px;
+    height: 36rem;
+    padding: 59px;
+    
+}
+
+
