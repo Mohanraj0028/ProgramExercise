@@ -19,10 +19,44 @@
 
 //touppercase
 
-let text = "qwertyuiopasdfghjklzxcvbnm"
+// let text = "qwertyuiopasdfghjklzxcvbnm"
 
-console.log(text.toUpperCase());
+// console.log(text.toUpperCase());
 
-let NEWtext = "QWERTYUIOP"
+// let NEWtext = "QWERTYUIOP"
 
-console.log(NEWtext.toLowerCase())
+// console.log(NEWtext.toLowerCase())
+
+// let text1 = "Mohan"
+
+// let text2 = "Raj"
+
+// let text3  = text1.concat(" ",text2)
+
+// console.log(text3)
+
+
+// let text4 = "Hello"+" "+"World"
+
+// console.log(text4)
+
+
+//trim
+
+//padding
+
+// let text = 34;
+
+// let padd = text.padStart(4, 'x');
+
+// console.log(padd);
+
+
+let text8 = "Hello world"
+
+console.log(text8.charCodeAt(0))
+
+
+let b = text8.split("")
+
+console.log(b)
