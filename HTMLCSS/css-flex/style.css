@@ -1,0 +1,22 @@
+.container{
+    height: 500px;
+    width: 500px;
+}
+
+
+.box{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-end; */
+}
