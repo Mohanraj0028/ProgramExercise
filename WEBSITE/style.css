@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -75,3 +76,108 @@ body{
     margin-left: -20px;
     
 }
+
+.cont-2{
+    background: #f6efe5;
+    margin-top: -150px;
+    color: #0d2c40;
+    margin-left: -11px;
+    height: 500px;
+    
+}
+    
+
+.cont-2 .incon-1{
+    
+    padding: 30px;
+    margin-top: 180px;
+    
+}
+
+.cont-2 h2{
+    margin-left: -51px;
+}
+
+.cont-2 p{
+    width: 500px;
+    text-align: left;
+    padding: 8px;
+}
+ .ligthblue{
+    background-color: rgba(0, 188, 217, 0.8);
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 276px;
+    height: 700px;
+}
+
+.ligthblue p{
+    color: white;
+    width: 250px;
+    margin-top: 90%;
+}
+
+.contimage{
+    
+    background-color: gray;
+background-image: url("mid-century.jpg");
+    background-position: cover;
+    background-size: cover;
+    height: 1500px;
+
+}
+
+.conimginside h2{
+    
+    margin-top: 400px;
+    margin-left: -500px;
+    color: red;
+
+}
+
+
+.sideblue{
+    background: #0d2c40;
+    color: white;
+
+    padding: 20px;
+    width: 550px;
+    margin-top: 400px;
+
+}
+/* 
+.sideblue .side{
+
+    transform: rotate(-90deg);
+    margin-left: -500px;
+    padding-top: -200px;
+    font-size: 28px;
+    
+
+} */
+
+.sideblue p{
+    padding: 30px;
+    text-align: left;
+    width: 350px;
+    margin-left: 50px;
+}
+.sideblue .sidehead{
+
+    font-size: 28px;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    width: 400px;
+    top: 400px;
+    margin-left: -173px;
+    margin-top: 137px;
+
+
+}
+.sideblue img{
+    height: 200px;
+    width: 200px;
+    margin-top: -657px;
+    margin-left: 330px;
+}
+
