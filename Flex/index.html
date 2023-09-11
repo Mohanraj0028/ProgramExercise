@@ -6,13 +6,8 @@
     <title>Flex</title>
     <style>
         .box{
-            background-color: #9b51e0;
-            padding: 10px;
-            display: flex;
-            flex-direction: row-reverse;
-            flex-direction: row;
-            flex-direction: column;
-            flex-direction: column-reverse;
+           flex-direction: row;
+
         }
         .box1{
             height: 120px;
@@ -23,10 +18,23 @@
             border-radius: 10px;
             margin: 20px;
         }
+
+
+        .box2{
+          
+          flex-direction: row-reverse;
+                  
+
+        }
+
+        .comman{
+          background-color: #9b51e0;
+          display: flex;
+        }
     </style>
 </head>
 <body>
-  <div class="box">
+  <div class="comman box">
     <div class="box1">1</div>
     <div class="box1">2</div>
     <div class="box1">3</div>
@@ -36,6 +44,104 @@
     <div class="box1">6</div>
     <div class="box1">7</div>
 
+  </div>
+  <h1>Flex row reverse</h1>
+  <div class=" comman box2">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+    <div class="box1">4</div>
+    <div class="box1">5</div>
+    <div class="box1">6</div>
+    <div class="box1">7</div>
+  </div>
+  <h1>column</h1>
+  <div class=" comman box2" style="flex-direction: column;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+    <div class="box1">4</div>
+    <div class="box1">5</div>
+    <div class="box1">6</div>
+    <div class="box1">7</div>
+  </div>
+  <h1>Column reverse</h1>
+  <div class=" comman box2" style="flex-direction: column-reverse;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+    <div class="box1">4</div>
+    <div class="box1">5</div>
+    <div class="box1">6</div>
+    <div class="box1">7</div>
+  </div>
+  <h1>Flex wrap</h1>
+  <div class=" comman box2 " style="flex-wrap: wrap; flex-direction: row;  ">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+    <div class="box1">4</div>
+    <div class="box1">5</div>
+    <div class="box1">6</div>
+    <div class="box1">7</div>
+  </div>
+  <h1>Flex nowrap</h1>
+  <div class=" comman box2 " style="flex-wrap: wrap-reverse; flex-direction: row;  ">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+    <div class="box1">4</div>
+    <div class="box1">5</div>
+    <div class="box1">6</div>
+    <div class="box1">7</div>
+  </div>
+  <h1>justify content</h1>
+  <h1>flex start</h1>
+  <div class=" comman box " style="justify-content: flex-start;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+  </div>
+  <h1>flex end</h1>
+  <div class=" comman box " style="justify-content: flex-end;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+  </div>
+  <h1>center</h1>
+  <div class=" comman box " style="justify-content: center;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+  </div>
+  <h1>space between</h1>
+  <div class=" comman box " style="justify-content: space-between;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+  </div>
+  <h1>Space around</h1>
+  <div class=" comman box " style="justify-content: space-around;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
+  </div>
+  <h1>Space evenly</h1>
+  <div class=" comman box " style="justify-content: space-evenly;">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    <div class="box1">4</div>
   </div>
 </body>
 </html>
