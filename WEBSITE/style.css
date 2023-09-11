@@ -215,7 +215,7 @@ background-image: url("mid-century.jpg");
     background: rgba(0, 188, 217, 0.8);
     width: 280px;
     margin-top: -307px;
-    height: 1200px;
+    height: 1000px;
 }
 
 .lightblue img{
@@ -232,4 +232,76 @@ background-image: url("mid-century.jpg");
 
 .lightblue h2{
     margin-top: 50px;
+}
+
+.container5{
+    background-color: #f6efe5;
+}
+
+.con5{
+
+    margin-left: 0px;
+    text-align: left;
+    margin-top: -200px;
+    width: 370px;
+
+}
+
+.con51{
+
+    margin-left: 100px;
+    text-align: left;
+    margin-top: -200px;
+    width: 390px;
+    
+}
+
+.cont-5  img{
+    height: 600px;
+    width: 450px;
+    margin-left: 60px;
+    margin-top: -250px;
+}
+
+.cont-5 h1{
+    font-size: 50px;
+    /* z-index: 0; */
+    transform: rotate(-90deg);
+    margin-left: 400px;
+
+}
+
+
+.last
+{
+    background-color: #c879b2;
+    margin-block-start: 0px;
+    margin-left: -13px;
+    width: 1891px;
+    margin-top: 2px;
+    
+}
+
+.last h1{
+    font-size: 146px;
+    color: white;
+}
+
+
+.blue a{
+    text-decoration: none;
+    color: white;
+}
+
+.orange{
+    background-color: #f15a30;
+}
+
+.lblue{
+    background-color: #31c5da;
+}
+
+.last .first{
+    color: white;
+    margin-top: 20%;
 }
