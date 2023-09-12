@@ -1,0 +1,42 @@
+.btm{
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    background:pink;
+    color: red;
+    font-size: 20px;
+    border: 6px solid red;
+    margin-top: 20%;
+    margin-left: 45%;
+    transition: transform 0.5s 0s ease;
+}
+
+
+.btm:hover{
+    transform: translateY(-40px);
+    background: red;
+    color: pink;
+}
+
+h1{
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+
+@keyframes sideleft {
+
+    from{
+        transform: translateX(-700px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+    
+}
+
+h1{
+    animation: sideleft 5s ease-in 3s;
+}

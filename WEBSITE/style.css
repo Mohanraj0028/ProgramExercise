@@ -277,7 +277,7 @@ background-image: url("mid-century.jpg");
     background-color: #c879b2;
     margin-block-start: 0px;
     margin-left: -13px;
-    width: 1891px;
+    
     margin-top: 2px;
     
 }
@@ -295,6 +295,7 @@ background-image: url("mid-century.jpg");
 
 .orange{
     background-color: #f15a30;
+    
 }
 
 .lblue{
@@ -304,4 +305,56 @@ background-image: url("mid-century.jpg");
 .last .first{
     color: white;
     margin-top: 20%;
+}
+
+.last .top{
+    width: 255px;
+    
+    height: 600px;
+}
+
+.last .top h1{
+    margin-top: 109%;
+    margin-left: -147px;
+    margin-bottom: 20px;
+}
+
+.last .top p{
+    margin-left: -13px;
+    color: white;
+    width: 46px;
+}
+
+.foorter{
+    background-color: #c879b2;
+    margin-left: -50px;
+}
+
+
+.fotblue {
+    background-color: #31c5da;
+    width: 254px;
+    margin-left: 11px;
+    height: 900px;
+
+}
+
+.fotblue h2{
+    color: white;
+    transform: rotate(270deg);
+    margin-left: -350px;
+    margin-top: 130px;
+    font-size: 32px;
+    margin-bottom: -47px;
+}
+
+.fotblue a{
+    margin-top: -80px;
+}
+
+.foorter img{
+    height: 300px;
+    width: 250px;
+    margin-top: 200px;
+    margin-left: -10px;
 }
