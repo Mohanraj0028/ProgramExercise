@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #748A9B;
+}
+
+
+
+.container{
+    width: 58%;
+    margin-left: 20%;
+    /* border: 3px solid white; */
+    background-color: #849AA9;
+}
+
+.row1 img{
+    width: 109%;
+    margin-left: -51px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+p{
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+}
+
+
+.row{
+    margin-left: 20px;
+    background-image: url('h1.jpg') no-repeat;
+}
+
+.rows img{
+
+
+}
