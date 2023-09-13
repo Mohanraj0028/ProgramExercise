@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Cinzel', serif;
+
+    
+}
+
+.animation {
+    animation: fadeout  ;
+    animation-delay: 0;
+    animation-duration: 4s;
+}
+
+
+@keyframes fadeout {
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+nav{
+    display: flex;
+
+    color: rgb(46, 39, 39);
+    margin: 20px;
+    padding: 10px;
+    position: sticky;
+    height:61px;
+    background-color: white ;
+    top: 0;
+}
+
+
+
+
+nav .logo{
+    font-size: 28px;
+    float: left;
+    letter-spacing: 5px;
+    font-family: 'Cinzel', serif;
+}
+
+nav .option{
+    display: flex;
+
+    margin-left: 30%;
+
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    font-family: 'Cinzel', serif;
+}
+
+
+nav ul li{
+    justify-content: space-around;
+    padding: 15px;
+    
+    
+    
+
+    
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(46, 40, 40);
+}
+
+.container{
+
+    width: 1330px;
+    background:  url("homepage.webp") no-repeat;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+
+    
+    
+    
+
+    
+}
+
+
+.layer{
+    background-color:rgba(16, 35, 77, 0.3);
+    height: 900px;
+    width: 100%;
+
+}
+
+.container .content{
+
+       display: inline;
+       color: antiquewhite;
+       text-align: center;
+       margin: 30px;
+       margin-top: 300px;
+
+       
+
+}
+
+.container .content h1{
+    text-align: center;
+    margin-top: 300px;
+    letter-spacing: 10px;
+    font-size: 70px;
+    font-family: 'Cinzel', serif;
+
+    
+
+}
+
+.container .content p{
+    font-size: 25px;
+
+    opacity:40;
+    
+    letter-spacing: 10px;
+    font-family: 'Cinzel', serif;
+    
+    
+}
+
+.container .content button{
+
+    margin-left: 45%;
+    padding: 10px;
+    width: 150px;
+    background: none;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+
+footer{
+
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+footer .icon i{
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+.container2{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+
+}
+
+.container2 .imgcontainer {
+    display: flex;
+}
+
+.container2 .imgcontainer .box1{
+
+    background: url('box1.webp') no-repeat;
+
+}
+.container2 .imgcontainer .box2{
+
+    background: url('box2.webp') no-repeat;
+
+}
+.container2 .imgcontainer .box3{
+
+    background: url('box3.webp') no-repeat;
+
+}
+
+.container2 .imgcontainer  {
+    margin-left: 5%;
+    
+}
+
+.container2 .imgcontainer .box{
+
+    width: 400px;
+    height: 800px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.container2 .imgcontainer .box h2{
+    color: white;
+    font-size: 40px;
+
+    margin-top: 82px;
+
+}
+
+.container2 .imgcontainer .box button{
+    width: 120px;
+    height: 45px;
+    background:none;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.container2 .imgcontainer .box button:hover{
+    background-color: rgb(4, 12, 39);
+    border: 5px solid rgb(4, 12, 39);
+
+}
+
+
+.port{
+
+    margin: 20px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.103);
+
+}
+
+
+.port  .cont{
+
+    font-family: 'Cinzel', serif;
+    margin-top: 20%;
+    width: 400px;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+.port .cont h3{
+
+    margin-top: 70px;
+
+}
+
+.cont_image img{
+    height: 1007px;
+    width: 562px;
+
+}
+
+.Books{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box1{
+    display: flex;
+
+    width: 90%;
+
+    margin-left: 5%;
+
+    background-color: #F0F3F6;
+    margin-top: 40px;
+}
+
+
+.box1 .sidecontent{
+    margin-top: 70px;
+    width: 300px;
+    margin: 90px;
+    padding: 30px;
+}
+
+.box1 .sidecontent h1{
+
+    font-size: 60px;
+    letter-spacing: 2px;
+    
+}
+
+.box1 .sidecontent .price{
+    display: flex;
+    justify-content: space-evenly;
+    width: 426px;
+
+
+    
+}
+
+.box1 .sidecontent p{
+    width: 400px;
+    text-align: left;
+}
+
+.box1 .sidecontent .price h1{
+    width: 150px;
+    height: 50px;
+    
+}
+
+.box1 .sidecontent .price button{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    
+}
+
+.box1  img{
+    margin-left: 150px;
+}
+
+
+.client{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+}
+
+
+.client .box{
+    display: flex;
+    
+    margin-left: 90px;
+    
+    
+}
+
+.client  .album1{
+    background-image: url(client.webp);
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+    margin-right: 10px;
+    
+
+}
+
+.client .album1  p{
+    color: white;
+    font-size: 25px;
+}
+
+.client .album2 p{
+    color: white;
+    font-size: 25px;
+}
+
+.client .album3  p{
+    color: white;
+    font-size: 25px;
+}
+
+.client .album1:hover {
+     /* Change to your new image */
+    transform: scale(0.9); /* Shrink the div to 90% of its original size */
+    transition: transform 0.2s; /* Apply a smooth transition to the transform property */
+}
+
+.client .album2:hover {
+    /* Change to your new image */
+   transform: scale(0.9); /* Shrink the div to 90% of its original size */
+   transition: transform 0.2s; /* Apply a smooth transition to the transform property */
+}
+
+.client .album3:hover {
+    /* Change to your new image */
+   transform: scale(0.9); /* Shrink the div to 90% of its original size */
+   transition: transform 0.2s; /* Apply a smooth transition to the transform property */
+}
+
+
+
+
+.client .album1 h3{
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-top: 40%;
+    font-size: 50px;
+    font-weight: 2;
+}
+
+.client .album2 h3{
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-top: 40%;
+    font-size: 50px;
+    font-weight: 2;
+}
+
+.client .album3 h3{
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-top: 40%;
+    font-size: 50px;
+    font-weight: 2;
+}
+
+.client  .album2{
+    background-image: url(client1.webp);
+    width: 400px;
+    height: 500px;
+    margin-right: 10px;
+    transition: 1s;
+}
+
+.client  .album3{
+    background-image: url(client3.webp);
+    width: 400px;
+    height: 500px;
+    margin-right: 10px;
+    transition: 1s;
+}
