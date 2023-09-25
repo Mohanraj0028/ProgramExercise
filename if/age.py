@@ -7,4 +7,4 @@ elif(18<= n <65 ):
     print("adult")
 
 else:
-    print("senior")        
+    print("bye")        
