@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan Raj</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Teamsite/timeline.css">
+
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="images/back.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="black-overlay"></div>
+    <div id="particle-js"></div>
+    <div class="body-content">
+        <nav>
+            <a href=""><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-book fa-lg" aria-hidden="true"></i></a>
+            
+            <a href=""><i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-trophy fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+
+        </nav>
+
+        <div class="timeline">
+
+            <h1  >Projects</h1>
+
+            <div class="container left-container ">
+                <img src="images/python.png">
+                <div class="text-box">
+                    <h2>Jarvis</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>Mini Voice Assistance - Python</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="container right-container">
+                <img src="images/python.png">
+                <div class="text-box">
+                    <h2>Qr Code Attendence System</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>Using Opencv Moudle in Python</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="container left-container">
+                <img src="images/python.png">
+                <div class="text-box">
+                    <h2>Face Recongation Attendence System</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>Using Opencv Moudle in Python</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+            <div class="container right-container">
+                <img src="images/python.png">
+                <div class="text-box">
+                    <h2>Virtual Painting application</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>SQL is a standard language for storing, manipulating and retrieving data in databases</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="container left-container">
+                <img src="images/reactjs.png">
+                <div class="text-box">
+                    <h2>Video call Web application</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>Socket Programming in ReactJS</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container right-container">
+                <img src="images/python.png">
+                <div class="text-box">
+                    <h2>Chat Application</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>SQL is a standard language for storing, manipulating and retrieving data in databases</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+            <div class="container left-container">
+                <img src="images/python.png">
+                <div class="text-box">
+                    <h2>Python Automation</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>File Organizer and Web scraping</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container right-container">
+                <img src="images/block.png">
+                <div class="text-box">
+                    <h2>Dapps</h2>
+                    <!-- <small>2018-2019</small> -->
+                    <p>Messaging app using Bloch Chain</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+    
+            
+    
+        </div>
+
+
+
+    
+    </div>
+ 
+
+    
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particle-js", {
+    particles: {
+        number: {
+            value: 120, // Number of particles
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        },
+        // ... Other particle properties ...
+
+        move: {
+            direction: 'none',
+            enable: true,
+            out_mode: 'bounce', // 'out_mode' instead of 'outmodes'
+            random: false,
+            speed: 1,
+            straight: false
+        },
+
+        line_linked: {
+            enable: true, 
+            distance: 150, 
+            color: "#ffffff", 
+            opacity: 0.4, 
+            width: 1 
+               },
+
+        size: {
+            value: 2, // Adjust this value to make particles smaller
+            random: true,
+            anim: {
+                enable: false,
+                speed: 40,
+                size_min: 0.1,
+                sync: false
+            }
+        },
+        color: {
+            value: "#0000FF" // Color of particles
+        },
+        shape: {
+            type: "circle", // Shape of particles (circle, edge, triangle, polygon, etc.)
+        },
+        
+    },
+    interactivity: {
+        events: {
+            onclick: {
+                enable: false, // 'enable' instead of 'eneble'
+                mode: 'push',
+            },
+            onhover: {
+                enable: true,
+                mode: 'repulse', // 'repulse' instead of 'repluse'
+            },
+            resize: true,
+        },
+        modes: {
+            push: {
+                quantity: 90
+            },
+            repulse: {
+                distance: 200,
+                duration: 0.4
+            }
+        }
+    },
+    retina_detect: true
+});
+
+</script>
+</body>
+</html>
