@@ -19,12 +19,12 @@
     <div id="particle-js"></div>
     <div class="body-content">
         <nav>
-            <a href=""><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-book fa-lg" aria-hidden="true"></i></a>
+            <a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
+            <a href="education.html"><i class="fa fa-book fa-lg" aria-hidden="true"></i></a>
             
-            <a href=""><i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-trophy fa-lg" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+            <a href="skills.html"><i class="fa fa-code fa-lg" aria-hidden="true"></i></a>
+            <!-- <a href=""><i class="fa fa-trophy fa-lg" aria-hidden="true"></i></a> -->
+            <a href="contacts.html"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
 
         </nav>
 
@@ -195,6 +195,22 @@
     },
     retina_detect: true
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the current page's URL
+    const currentPageUrl = window.location.href;
+
+    // Get all the navigation links
+    const links = document.querySelectorAll("nav a");
+
+    // Loop through the links and check if their href matches the current page's URL
+    links.forEach(link => {
+        if (currentPageUrl.includes(link.href)) {
+            link.classList.add("active");
+        }
+    });
+});
+
 
 </script>
 </body>
